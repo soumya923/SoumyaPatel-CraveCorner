@@ -1,0 +1,107 @@
+/* Reset and box sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  color: #4e342e;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+/* Store heading with inline logo, no background box */
+.store-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  gap: 12px;
+}
+.store-heading img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  display: inline-block;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* Sticky navbar with emojis/icons */
+nav {
+  background-color:rgb(159, 119, 228);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.75rem 1rem;
+  gap: 0.4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation links */
+nav a {
+  color: #f59191;
+  background-color:white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: rgb(255, 0, 217);
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Active link style */
+nav a.active {
+  background-color: #222;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+
+/* Scrollbar for horizontal nav (only Webkit browsers) */
+::-webkit-scrollbar {
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd700;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2f2f33;
+}
+
+/* Main content wrapper */
+main {
+  padding: 2rem;
+  text-align: center;
+}

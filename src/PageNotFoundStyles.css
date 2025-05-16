@@ -1,0 +1,45 @@
+.PageNotFound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.PageNotFound-container h1 {
+  font-size: 80px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.PageNotFound-container p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.PageNotFound-image {
+  width: 300px;
+  max-width: 90%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .PageNotFound-container h1 {
+    font-size: 60px;
+  }
+
+  .PageNotFound-container p {
+    font-size: 16px;
+  }
+
+  .PageNotFound-image {
+    width: 80%;
+  }
+}
