@@ -19,7 +19,7 @@ function SignIn() {
       setShowSuccess(true);
 
       const timer = setTimeout(() => {
-        navigate('/cart');
+        navigate('/Home');
       }, 1500);
 
       return () => clearTimeout(timer);

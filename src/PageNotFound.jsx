@@ -1,7 +1,7 @@
 // src/pages/NotFound.js
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './PageNotFoundStyles.css';
+import './PageNotFound.css';
 
 const PageNotFound = () => {
   const navigate = useNavigate(); // Hook to navigate programmatically

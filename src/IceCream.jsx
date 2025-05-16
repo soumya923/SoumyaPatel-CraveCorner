@@ -1,6 +1,6 @@
 // IceCream.jsx
 import React, { useState } from "react";
-import "./IceCreamStyles.css";
+import "./IceCream.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Addtocart } from "./Store";
 import { ToastContainer, toast } from "react-toastify";
