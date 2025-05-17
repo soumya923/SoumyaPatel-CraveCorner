@@ -16,7 +16,7 @@ import SignUp from "./SignUp";
 import PageNotFound from "./PageNotfound";
 
 import { useDispatch, useSelector } from "react-redux";
-import { logOut } from "./Store.js"; // Assuming logOut action is defined in your store
+import { logOut } from "./store"; // Assuming logOut action is defined in your store
 
 function App() {
   const dispatch = useDispatch();

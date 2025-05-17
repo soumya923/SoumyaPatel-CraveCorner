@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginUser } from './Store';
+import { loginUser } from './store';
 import { useNavigate } from 'react-router-dom';
 
 function SignIn() {

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./IceCream.css";
 import { useDispatch, useSelector } from "react-redux";
-import { Addtocart } from "./Store";
+import { Addtocart } from "./store";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

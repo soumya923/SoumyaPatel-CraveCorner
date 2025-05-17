@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { registerUser } from './Store';
+import { registerUser } from './store';
  // adjust path as needed
 
 function SignUp() {
