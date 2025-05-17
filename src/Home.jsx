@@ -14,26 +14,34 @@ function Home() {
       <section className="section-wrapper">
         <h2 className="section-title">🍽️ Our Menu Categories</h2>
         <div className="category-section">
+          <Link to="/chocolate" className="category-link">
           <div className="category-item">
+            
             <h3>🍫 Chocolates</h3>
-            <Link to="/chocolates" className="category-link"></Link>
             <p>Indulge in rich, handcrafted chocolates.</p>
+            
           </div>
+          </Link>
+          <Link to="/ice-cream" className="category-link">
           <div className="category-item">
+            
             <h3>🍦 Ice Creams</h3>
-            <Link to="/icecreams" className="category-link"></Link>
             <p>Cool down with our delightful range of ice creams.</p>
+            
           </div>
+          </Link>
+          <Link to="/veg" className="category-link">
           <div className="category-item">
             <h3>🥦 Veg Items</h3>
-            <Link to="/veg" className="category-link"></Link>
             <p>Explore fresh, healthy, and organic vegetables.</p>
           </div>
+          </Link>
+          <Link to="/non-veg" className="category-link">
           <div className="category-item">
             <h3>🍗 Non-Veg Items</h3>
-            <Link to="/non-veg" className="category-link"></Link>
             <p>For the meat lovers, enjoy a variety of non-veg options.</p>
           </div>
+          </Link>
         </div>
       </section>
 
@@ -42,6 +50,7 @@ function Home() {
         <h2 className="section-title">⭐ Featured Products</h2>
         <div className="featured-products">
           <div className="product-card">
+            
             <img src="/Images/chocolates.jpeg" alt="Chocolate" />
           </div>
           <div className="product-card">
@@ -144,6 +153,7 @@ function Home() {
           font-weight: bold;
           color: #007bff;
           text-decoration: none;
+          cursor: pointer;
         }
 
         .category-link:hover {
