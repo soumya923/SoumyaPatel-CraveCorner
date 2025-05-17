@@ -13,7 +13,7 @@ import ContactUs from "./ContactUs";
 import Orders from "./Orders";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
-import PageNotFound from "./PageNotfound";
+import PageNotFound from "./PageNotFound";
 
 import { useDispatch, useSelector } from "react-redux";
 import { logOut } from "./store"; // Assuming logOut action is defined in your store
