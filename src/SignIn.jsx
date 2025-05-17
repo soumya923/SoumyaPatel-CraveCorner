@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from './store';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function SignIn() {
   const dispatch = useDispatch();
@@ -56,7 +56,7 @@ function SignIn() {
       {showSuccess && <p className="success-message">✅ Sign in successful! Redirecting...</p>}
 
       <p>
-        New user? <a href="/sign-up">Sign Up</a>
+        New user? <Link to="/sign-up">Sign Up</Link>
       </p>
     </div>
   );
