@@ -17,7 +17,7 @@ function Chocolate() {
     name: product.name.charAt(0).toUpperCase() + product.name.slice(1)
   }));
 
-  const maxPrice = 900;  // Define the maximum price
+  const maxPrice = 300;  // Define the maximum price
   const [maxFilterPrice, setMaxFilterPrice] = useState(maxPrice);
 
   // Filter products by max price

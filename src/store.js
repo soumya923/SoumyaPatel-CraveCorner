@@ -58,7 +58,7 @@ const productsSlice = createSlice({
     ],
     IceCreams: [
       { name: 'Candy Ice CreamHocco Hazelnut Mudslide', price: 280.5, image: '/Images/Hocco-Hazelnut-Mudslide.webp' },
-      { name: 'Chocolate-Low Calorie Ice Cream Bar', price: 250.5, image: '/Images/Go-Zero-Madagascar-Chocolate-Low-Calorie-Guilt-Free-Ice-Cream-Bar.webp' },
+      { name: 'Chocolate-Low Calorie Ice Cream Bar', price: 90.5, image: '/Images/Go-Zero-Madagascar-Chocolate-Low-Calorie-Guilt-Free-Ice-Cream-Bar.webp' },
       { name: 'Hocco-Choco Brownie-Tub', price: 180.5, image: '/Images/Hocco-Choco-Brownie-Tub.webp' },
       { name: 'Blueberry Cheesecake Ice Cream-Cup', price: 150.5, image: '/Images/Go-Zero-Blueberry-Cheesecake-Low-Calorie-Guilt-Free-Ice-Cream-Cup.webp' },
       { name: 'Raspberry-Duet Ice-Cream-Stick', price: 100.5, image: '/Images/Go-Zero-Raspberry-Duet-Low-Calorie-Guilt-Free-Ice-Cream-Stick.webp' },
@@ -76,10 +76,12 @@ const productsSlice = createSlice({
       { name: 'Candy Ice Cream', price: 220.5, image: '/Images/Baskin-Robbins-Cotton-Candy-Ice-Cream-Tub.webp' },
       { name: 'Cream-Pot American-Nuts', price: 240.5, image: '/Images/Cream-Pot-American-Nuts.webp' },
       { name: 'Cream-Pot Butterscotch-Tub', price: 190.5, image: '/Images/Cream-Pot-Butterscotch-Tub.webp' },
-      { name: 'Red-Velvet-Icone Ice Cream Cone', price: 270.5, image: '/Images/Arun-Red-Velvet-Icone-Ice-Cream-Cone-100-ml-Combo.webp' }
+      { name: 'Red-Velvet-Icone Ice Cream Cone', price: 270.5, image: '/Images/Arun-Red-Velvet-Icone-Ice-Cream-Cone-100-ml-Combo.webp' },
+      { name: 'Cream Pot Chocolate Tub', price: 100.5, image: '/Images/Cream Pot Chocolate Tub.webp' }
+      
     ],
     Chocolates: [
-      { name: 'Amul Dark Chocolate Bar', price: 150.5, image: '/Images/Amul-Dark-Chocolate-Bar.webp' },
+      { name: 'Galaxy Smooth Milk Chocolate Bar', price: 150.5, image: '/Images/Galaxy Smooth Milk Chocolate Bar.jpg' },
       { name: 'Cadbury Bournville Rich Cocoa', price: 180.5, image: '/Images/Cadbury%20Bournville%20Rich%20Cocoa%2070%25%20Dark%20Chocolate%20Bar.jpg' },
       { name: 'Cadbury Dairy Milk Crispello', price: 100.5, image: '/Images/Cadbury-Dairy-Milk-Crispello-Chocolate-Bar.webp' },
       { name: 'Cadbury Dairy Milk Silk Oreo', price: 110.5, image: '/Images/Cadbury-Dairy-Milk-Silk-Oreo-Chocolate-Bar.webp' },
@@ -92,13 +94,14 @@ const productsSlice = createSlice({
       { name: "Hershey's Chocolate Milton Hershey", price: 90.5, image: '/Images/Hershey%27s%20Chocolate%20Milton%20Hershey.jpg' },
       { name: 'Hershey-s Cookies', price: 100.5, image: '/Images/Hershey-s-Cookies-N-Creme-Chocolate-Bar.webp' },
       { name: 'kit kat nestle chocolate bars', price: 80.5, image: '/Images/kit%20kat%20nestle%20chocolate%20bars.jpg' },
-       { name: 'Nestle Classic Tablet Rich Creamy Milk Treat', price: 120.5, image: '/Images/Nestle-Classic-Tablet-Rich-Creamy-Milk-Treat.webp' },
+      { name: 'Nestle Classic Tablet Rich Creamy Milk Treat', price: 120.5, image: '/Images/Nestle-Classic-Tablet-Rich-Creamy-Milk-Treat.webp' },
       { name: 'Milkybar Tablet Made With Milk Yummy Creamy Treat', price: 100.5, image: '/Images/Nestle-Milkybar-Tablet-Made-With-Milk-Yummy-Creamy-Treat.webp' },
       { name: 'Munch Max Choco Coated Crunchy Wafer Bar', price: 80.5, image: '/Images/Nestle-Munch-Max-Choco-Coated-Crunchy-Wafer-Bar.webp' },
       { name: 'Perk', price: 60.5, image: '/Images/Perk.jpg' },
       { name: 'Snickers High Protein Bar', price: 70.5, image: '/Images/Snickers%20High%20Protein%20Bar.jpg' },
-      { name: 'Toblerone chocolate cookie dough truffles', price: 900.5, image: '/Images/Toblerone%20chocolate%20cookie%20dough%20truffles.jpg' },
-      { name: 'TWIX Milk Chocolate', price: 80.5, image: '/Images/TWIX%20Milk%20Chocolate%20Snack%20with%20Biscuit%20and%20Showbox%20Caramel.jpg' }
+      { name: 'Toblerone chocolate cookie dough truffles', price: 300.5, image: '/Images/Toblerone%20chocolate%20cookie%20dough%20truffles.jpg' },
+      { name: 'TWIX Milk Chocolate', price: 200.5, image: '/Images/TWIX%20Milk%20Chocolate%20Snack%20with%20Biscuit%20and%20Showbox%20Caramel.jpg' },
+      { name: 'Amul Dark Chocolate Bar', price: 160.5, image: '/Images/Amul-Dark-Chocolate-Bar.webp'}
     ]
   },
   reducers: {}

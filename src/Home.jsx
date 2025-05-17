@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,18 +16,22 @@ function Home() {
         <div className="category-section">
           <div className="category-item">
             <h3>🍫 Chocolates</h3>
+            <Link to="/chocolates" className="category-link"></Link>
             <p>Indulge in rich, handcrafted chocolates.</p>
           </div>
           <div className="category-item">
             <h3>🍦 Ice Creams</h3>
+            <Link to="/icecreams" className="category-link"></Link>
             <p>Cool down with our delightful range of ice creams.</p>
           </div>
           <div className="category-item">
             <h3>🥦 Veg Items</h3>
+            <Link to="/veg" className="category-link"></Link>
             <p>Explore fresh, healthy, and organic vegetables.</p>
           </div>
           <div className="category-item">
             <h3>🍗 Non-Veg Items</h3>
+            <Link to="/non-veg" className="category-link"></Link>
             <p>For the meat lovers, enjoy a variety of non-veg options.</p>
           </div>
         </div>
@@ -38,18 +43,15 @@ function Home() {
         <div className="featured-products">
           <div className="product-card">
             <img src="/Images/chocolates.jpeg" alt="Chocolate" />
-            
           </div>
           <div className="product-card">
             <img src="/Images/veg.jpeg" alt="Veg Item" />
-            
           </div>
           <div className="product-card">
             <img src="/Images/icecream.jpeg" alt="Icecream" />
           </div>
           <div className="product-card">
             <img src="/Images/nonveg.jpeg" alt="Non-Veg Item" />
-            
           </div>
         </div>
       </section>
@@ -85,9 +87,8 @@ function Home() {
 
         .hero-section h1 {
           font-size: 70px;
-          font-text:"center";
           margin: 0;
-          color:white;
+          color: white;
         }
 
         .hero-section p {
@@ -137,6 +138,18 @@ function Home() {
           color: #555;
         }
 
+        .category-link {
+          display: inline-block;
+          margin: 10px 0;
+          font-weight: bold;
+          color: #007bff;
+          text-decoration: none;
+        }
+
+        .category-link:hover {
+          text-decoration: underline;
+        }
+
         .featured-products {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
@@ -158,18 +171,6 @@ function Home() {
           height: 180px;
           object-fit: cover;
           border-radius: 6px;
-        }
-
-        .product-card h4 {
-          margin-top: 10px;
-          font-size: 18px;
-          color: #232f3e;
-        }
-
-        .product-card p {
-          color: #b12704;
-          font-weight: bold;
-          margin-top: 5px;
         }
 
         .footer-section {
@@ -197,7 +198,6 @@ function Home() {
 
           .hero-section h1 {
             font-size: 50px;
-            color:white;
           }
 
           .hero-section p {
