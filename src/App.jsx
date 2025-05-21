@@ -47,10 +47,16 @@ function App() {
         <Link to="/aboutus">ℹ About Us</Link>
         <Link to="/contactus">📞 Contact Us</Link>
         {isAuthenticated ? (
-          <button onClick={handleLogout} className="btn btn-link">Logout</button>
+        <>
+        <span className="welcome" style={{color: "darkblue", fontStyle: "italic"}}>
+        👋 Welcome, {currentUser.username}
+        </span>
+        <button onClick={handleLogout} className="btn btn-link">Logout</button>
+        </>
         ) : (
-          <Link to="/sign-in">🔐 Sign In</Link>
+       <Link to="/sign-in">🔐 Sign In</Link>
         )}
+
       </nav>
 
       <Routes>
